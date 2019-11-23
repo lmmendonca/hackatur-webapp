@@ -12,14 +12,10 @@
       <v-container fluid ma-0 pa-0>
         <v-layout row>
           <v-flex md3 xs8>
-            <v-toolbar-title class="pl-0">
-              <!-- <v-app-bar-nav-icon @click="toggleDrawer()" pb-1>
-                <v-icon>menu</v-icon>
-              </v-app-bar-nav-icon> -->
-              <!-- <router-link to="/" class="hidden-sm-and-down" style="vertical-align: middle;"> -->
-              <span class="pl-3" style="vertical-align: middle;">{{pageTitle}}</span>
-              <!-- </router-link> -->
-            </v-toolbar-title>
+            <v-toolbar-title
+              class="pl-3"
+              style="vertical-align: center; padding-top: 10px"
+            >{{pageTitle}}</v-toolbar-title>
           </v-flex>
           <v-flex v-if="!$vuetify.breakpoint.smAndDown" md6 style="padding-top: 2px">
             <v-text-field
@@ -32,14 +28,11 @@
           </v-flex>
           <v-flex text-right md3 xs4>
             <div class="mr-3">
-
               <!-- Menu profile -->
 
-              <v-menu offset-y>
-                  <v-avatar size="32px" tile>
-                    <v-icon size="32">account_circle</v-icon>
-                  </v-avatar>
-              </v-menu>
+              <v-avatar size="32px" tile>
+                <v-icon size="32" style="vertical-align: center; padding-top: 15px">account_circle</v-icon>
+              </v-avatar>
             </div>
           </v-flex>
         </v-layout>
