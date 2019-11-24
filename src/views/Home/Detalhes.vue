@@ -18,59 +18,60 @@
                 ></v-carousel-item>
             </v-carousel>
 
-            <v-card-title>
-            <p style="font-size:250%">Programa Ar Livre</p>
+            <v-card-title class="display-2">
+            Programa Ar Livre
             </v-card-title>
 
-            <v-spacer></v-spacer>
-            <v-card-text>
-            <p style="font-size:150%">
+            <v-card-text class="title">
                 <b>Valor:</b> R$ 20,00 &nbsp;&nbsp;&nbsp;&nbsp;
                 <b>Forma de Pagamento:</b> Dinheiro&nbsp;&nbsp;&nbsp;&nbsp;
                 <b>Data:</b> 20/12/2019
-            </p>
             </v-card-text>
 
-            <v-card-title>
+            <v-card-title class="display-1">
                         <tr>
-                        <p class="text-left" style="font-size:200%">Itinerario</p>
+                        Itinerário
                         <th></th>
                         </tr>
             </v-card-title>
 
-            <v-card-text style="font-size:150%">
-                        <tr>
-                            <v-container
-                                class="spacing-playground py-50 px-5"
-                                fluid
-                            ><td>Local</td>
-                            </v-container>
-                            <td>Local</td>
-                        </tr>
-                        <tr>
-                            <v-container
-                                class="spacing-playground py-50 px-5"
-                                fluid
-                            ><td>Local</td>
-                            </v-container>
-                            <td>Local</td>
-                        </tr>
-                        <tr>
-                            <v-container
-                                class="spacing-playground py-50 px-5"
-                                fluid
-                            ><td>Local</td>
-                            </v-container>
-                            <td>Local</td>
-                        </tr>
+            <v-card-text>
+                        <v-row>
+                            <v-col cols="4" md="2">
+                                <v-card-text
+                                class="title">
+                                <v-icon>room</v-icon> Test
+                                </v-card-text>
+                            </v-col>
+                            <v-col cols="4" md="2">
+                                <v-card-text
+                                class="title">
+                                <v-icon>room</v-icon> Test
+                                </v-card-text>
+                            </v-col>
+                        </v-row>
+                        <v-row>
+                            <v-col cols="4" md="2">
+                                <v-card-text
+                                class="title">
+                                <v-icon>room</v-icon> Test
+                                </v-card-text>
+                            </v-col>
+                            <v-col cols="4" md="2">
+                                <v-card-text
+                                class="title">
+                                <v-icon>room</v-icon> Test
+                                </v-card-text>
+                            </v-col>
+                        </v-row>
             </v-card-text>
             <v-card-title>
-            <p style="font-size:200%">
-                Descricao
+            <p class="display-1">
+                Descrição
             </p>
             </v-card-title>
             <v-card-text>
-                <p style="font-size:150%">
+                <p class="title">
                     Morbi mattis ullamcorper velit. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Fusce convallis metus id felis luctus adipiscing. Aenean massa. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nulla consequat massa quis enim. Praesent venenatis metus at tortor pulvinar varius. Donec venenatis vulputate lorem. Phasellus accumsan cursus velit. Pellentesque ut neque.
                 </p>
             </v-card-text>
