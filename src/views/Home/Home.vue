@@ -76,7 +76,7 @@
         <v-row no-gutters>
           <v-col cols="3">
             <v-card>
-              <v-carousel hide-delimiter-background :show-arrows="false" cycle height="250">
+              <v-carousel hide-delimiter-background :show-arrows="true" cycle height="250">
                 <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"></v-carousel-item>
               </v-carousel>
             </v-card>
@@ -103,7 +103,7 @@
                 <v-row no-gutters>
                   <v-col cols="4">
                     <v-icon>room</v-icon>
-                    <span class="subtitle-1 center">Suco da Rodoviaria</span>
+                    <span class="subtitle-1 center">Suco da Rodoviária</span>
                   </v-col>
                   <v-col cols="4">
                     <v-icon>room</v-icon>
@@ -119,7 +119,7 @@
                   </v-col>
                   <v-col cols="4">
                     <v-icon>room</v-icon>
-                    <span class="subtitle-1 center">Lago Igápo</span>
+                    <span class="subtitle-1 center">Lago Igapó</span>
                   </v-col>
                 </v-row>
               </v-card-text>
@@ -132,7 +132,7 @@
         <v-row no-gutters>
           <v-col cols="3">
             <v-card>
-              <v-carousel hide-delimiter-background :show-arrows="false" cycle height="250">
+              <v-carousel hide-delimiter-background :show-arrows="true" cycle height="250">
                 <v-carousel-item v-for="(item,i) in items2" :key="i" :src="item.src"></v-carousel-item>
               </v-carousel>
             </v-card>
@@ -159,7 +159,7 @@
                 <v-row no-gutters>
                   <v-col cols="4">
                     <v-icon>room</v-icon>
-                    <span class="subtitle-1 center">Por do Sol no Lago Igápo</span>
+                    <span class="subtitle-1 center">Por do Sol no Lago Igapó</span>
                   </v-col>
                   <v-col cols="4">
                     <v-icon>room</v-icon>

@@ -12,11 +12,12 @@
       <v-container fluid ma-0 pa-0>
         <v-layout row>
           <v-flex md3 xs8>
-            <v-toolbar-title
-              class="pl-3"
-              style="vertical-align: center; padding-top: 10px"
-              bold
-            >Fora do Óbvio</v-toolbar-title>
+            <v-toolbar-title class="pl-3" style="vertical-align: center; padding-top: 10px" bold>
+              <img
+                src="https://trello-attachments.s3.amazonaws.com/5dd7040bcce38d4f69daa45f/5dd9d60ef6ca8f52236e5d6f/002d3ac780b9d711c552c304b2752f0c/image.png"
+                width="170"
+              />
+            </v-toolbar-title>
           </v-flex>
           <v-flex v-if="!$vuetify.breakpoint.smAndDown" md6 style="padding-top: 2px">
             <v-text-field
