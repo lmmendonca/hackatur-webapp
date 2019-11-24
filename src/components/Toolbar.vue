@@ -15,7 +15,8 @@
             <v-toolbar-title
               class="pl-3"
               style="vertical-align: center; padding-top: 10px"
-            >{{pageTitle}}</v-toolbar-title>
+              bold
+            >Fora do Óbvio</v-toolbar-title>
           </v-flex>
           <v-flex v-if="!$vuetify.breakpoint.smAndDown" md6 style="padding-top: 2px">
             <v-text-field
