@@ -76,13 +76,13 @@
         <v-row no-gutters>
           <v-col cols="3">
             <v-card>
-              <v-carousel hide-delimiter-background show-arrows-on-hover cycle height="250">
+              <v-carousel hide-delimiter-background :show-arrows="false" cycle height="250">
                 <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"></v-carousel-item>
               </v-carousel>
             </v-card>
           </v-col>
           <v-col class="mx-auto">
-            <v-card elevation="0" class="mx-auto">
+            <v-card elevation="0" class="mx-auto" :to="'/detalhes2'">
               <v-card-title>Sábado em Londrina</v-card-title>
               <v-card-text
                 class="pb-0 text--primary"
@@ -132,13 +132,13 @@
         <v-row no-gutters>
           <v-col cols="3">
             <v-card>
-              <v-carousel hide-delimiter-background show-arrows-on-hover cycle height="250">
+              <v-carousel hide-delimiter-background :show-arrows="false" cycle height="250">
                 <v-carousel-item v-for="(item,i) in items2" :key="i" :src="item.src"></v-carousel-item>
               </v-carousel>
             </v-card>
           </v-col>
           <v-col class="mx-auto">
-            <v-card elevation="0" class="mx-auto">
+            <v-card elevation="0" class="mx-auto" :to="'/detalhes1'">
               <v-card-title>Final de Feriado Fora do Óbivio</v-card-title>
               <v-card-text
                 class="pb-0 text--primary"
@@ -167,7 +167,6 @@
                   </v-col>
                 </v-row>
                 <br />
-
               </v-card-text>
             </v-card>
           </v-col>
@@ -184,8 +183,7 @@ export default {
     rating: 3,
     items: [
       {
-        src:
-          "https://mapio.net/images-p/15470398.jpg"
+        src: "https://mapio.net/images-p/15470398.jpg"
       },
       {
         src:
@@ -202,8 +200,7 @@ export default {
           "http://baixaexperimenta.com.br/wp-content/uploads/2014/05/strassberg-tortas-alemas-londrina-02.jpg"
       },
       {
-        src:
-          "https://tudorondonia.com/uploads/29-07-19-jmo4zi5gnqj4gap.jpg"
+        src: "https://tudorondonia.com/uploads/29-07-19-jmo4zi5gnqj4gap.jpg"
       },
       {
         src:

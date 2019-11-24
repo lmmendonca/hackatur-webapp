@@ -89,7 +89,7 @@
                     class="spacing-playground py-0 px-10"
                     fluid
                 >
-                    <v-btn right=true color="white">Voltar</v-btn>
+                    <v-btn right=true color="white"  :to="'/'">Voltar</v-btn>
                     &nbsp;&nbsp;
                     <v-btn right=true color="black" style="color:white;">
                         Comprar
