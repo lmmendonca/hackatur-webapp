@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home/Home.vue";
+import Detalhes from "./views/Home/Detalhes.vue";
 
 Vue.use(Router);
 
@@ -16,10 +17,10 @@ export default new Router({
       }
     },
     {
-      path: "/home",
-      component: Home,
+      path: "/detalhes",
+      component: Detalhes,
       meta: {
-        name: "Hackatur"
+        name: "Detalhes"
       }
     },
   ]
