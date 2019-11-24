@@ -1,7 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home/Home.vue";
-import Detalhes from "./views/Home/Detalhes.vue";
+import Detalhes1 from "./views/Home/Detalhes1.vue";
+import Detalhes2 from "./views/Home/Detalhes2.vue";
 
 Vue.use(Router);
 
@@ -17,10 +18,17 @@ export default new Router({
       }
     },
     {
-      path: "/detalhes",
-      component: Detalhes,
+      path: "/detalhes1",
+      component: Detalhes1,
       meta: {
-        name: "Detalhes"
+        name: "Detalhes1"
+      }
+    },
+    {
+      path: "/detalhes2",
+      component: Detalhes2,
+      meta: {
+        name: "Detalhes2"
       }
     },
   ]
