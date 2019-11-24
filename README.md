@@ -1,6 +1,7 @@
 # Hackatur
 
-Aplicação WEB desenvolvida na linguagem Java Script e o framework VueJS com o objetivo de consumir as APIs para o projeto Hackatur
+Aplicação WEB desenvolvida na linguagem Java Script e o framework VueJS para o Hackatur;
+
 ## Project setup
 
 ```
